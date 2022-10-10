@@ -5,18 +5,11 @@
   }
   
   body * {
-    display: flex;
-    flex-flow: column;
     font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
-    align-items: center;
   }
   
   header {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
+
     max-height: 100px;
   }
   
@@ -26,8 +19,6 @@
   }
   
   header nav ul {
-    display: flex;
-    flex-flow: row;
     padding: 0;
     margin: 0;
   
@@ -55,10 +46,7 @@
   }
   
   .second-section {
-    display: flex;
-    flex-flow: column;
     color: white;
-    align-items: center;
     background-color: #c2175b;
   }
 
