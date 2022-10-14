@@ -1,15 +1,42 @@
 :root {
   --primary-color: #c2175b;
-  --secondary-color: #88888;
+  --secondary-color: #333333;
   --font-color: darkgray; 
 }
 
 
 
+
+
 * {
-    margin: 200px;
+    margin: 0px;
     padding: 0;
+
     
+
+    box-sizing: border-box;
+  }
+  
+  body * {
+    display: grid;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+
   }
   
   header nav ul {
