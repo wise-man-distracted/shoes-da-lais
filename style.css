@@ -11,6 +11,9 @@
 * {
     margin: 0px;
     padding: 0;
+
+    
+
     box-sizing: border-box;
   }
   
@@ -33,12 +36,13 @@
   header nav {
     display: flex;
     align-items: center;
+
   }
   
   header nav ul {
     display: flex;
     flex-flow: row;
-    padding: 0;
+    padding: 0;sdfsdfsdf
     margin: 0;
   
     list-style: none;
@@ -46,14 +50,14 @@
   
   header nav a {
     text-decoration: none;
-    color: var(--font-color);
+    color: var(--font-color);dfgdfgdfg
     display: block;
     padding: 1rem;
     font-weight: bold;
-  }
+  }dfgdfgdfg
   
   .banner img {
-    width: 100%;
+    width: 100%;fdgdfgdfg
     max-width: 100%;
   }
 
