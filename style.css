@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #c2175b;
+  --font-color: darkgray; 
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +42,7 @@
   
   header nav a {
     text-decoration: none;
-    color: darkgray;
+    color: var(--font-color);
     display: block;
     padding: 1rem;
     font-weight: bold;
@@ -75,7 +81,7 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    background-color: #c2175b;
+    background-color: var(--primary-color);
   }
 
   .second-section > h1 {
