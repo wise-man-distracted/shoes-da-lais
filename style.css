@@ -1,12 +1,13 @@
 :root {
   --primary-color: #c2175b;
-  --secondary-color: #777777;
+  --secondary-color: #88888;
   --font-color: darkgray; 
 }
 
 
+
 * {
-    margin: 0;
+    margin: 200px;
     padding: 0;
     box-sizing: border-box;
   }
